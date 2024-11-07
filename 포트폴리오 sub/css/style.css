@@ -1,0 +1,440 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+body {
+    font-family: Pretendard;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* header 시작~! */
+#header {
+    height: 119px;
+}
+
+.header_center {
+    width: 1400px;
+    height: 119px;
+
+    margin: 0 auto;
+}
+
+.h_logo {
+    margin-left: 29px;
+    margin-top: 24px;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a {
+    display: block;
+    padding: 45px 40px;
+    font-size: 20px;
+}
+
+.gnb li:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    /* 부드러운 전환을 위해 추가 */
+    color: #585757;
+}
+
+
+.backtop-black {
+    color: black !important;
+}
+
+
+
+
+/* header끝
+
+/* banner 시작 */
+#banner {
+    height: 845px;
+    background-image: url(../image/sub-bannner-video.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#banner img {
+    margin-top: 350px;
+}
+
+/* 배너 끝 */
+
+/* brand story 시작 */
+#brand_story {
+    height: 1473px;
+    background-color: #000;
+}
+
+.brand_story_center {
+    width: 1400px;
+    height: 1473px;
+    color: #fff;
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.brand_story_center h1 {
+    font-size: 51px;
+    color: #fff;
+    padding-top: 139px;
+
+}
+
+.brand_story_center p {
+    margin-bottom: 41px;
+    line-height: 41px;
+}
+
+.text_box {
+    margin-left: 700px;
+    margin-top: 81px;
+    width: 533px;
+    height: 851px;
+    margin-bottom: 89px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.c_project {
+    font-size: 89px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 160px;
+    right: 530px;
+    text-transform: uppercase;
+
+}
+
+.y_exprience {
+    font-size: 89px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 160px;
+    right: 280px;
+
+}
+
+.c_pro_img {
+    position: absolute;
+    bottom: 90px;
+    right: 470px;
+}
+
+.y_expri_img {
+    position: absolute;
+    bottom: 90px;
+    right: 170px;
+}
+
+#our_service {
+    height: 3812px;
+}
+
+.our_h1 {
+    width: 1400px;
+    height: 328px;
+    margin: 0 auto;
+    
+}
+.our_h1 h1{font-size: 160px;
+    padding-top: 70px;
+}
+
+.our_section1 {
+    height: 1183px;
+}
+
+.content_1 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_1.png);
+    background-repeat: no-repeat;
+}
+
+.text_flow_1 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_1_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+
+.our_section2 {
+    height: 1183px;
+}
+
+.content_2 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_1.png);
+    background-repeat: no-repeat;
+}
+
+.text_flow_2 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_2_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+
+.our_section3 {
+    height: 1183px;
+}
+
+.content_3 {
+    height: 1000px;
+    background-image: url(../image/our_service_bg_1.png);
+    background-repeat: no-repeat;
+}
+
+.text_flow_3 {
+    height: 183px;
+    background-color: #000;
+}
+
+.content_3_center {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.our_left_img {
+    margin-top: 153px;
+}
+
+.our_right_img {
+    position: absolute;
+    bottom: 205px;
+    left: 882px;
+}
+/* brand story 끝 */
+/* 푸터펄스트 시작*/ 
+#footer_fst {
+    margin-top: 65px;
+    height: 1031px;
+    background-color: #000;
+}
+
+.footer_fst_center {
+    width: 1400px;
+    height: 1031px;
+    margin: 0 auto;
+    background-image: url(../image/footer_background.png);
+    background-repeat: no-repeat;
+    padding-top: 372px;
+
+}
+
+.footer_fst_center h1 {
+    color: #fff;
+    font-size: 120px;
+    text-align: center;
+}
+
+#footer_fst .footer_fst_center h1 span {
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#footer_fst .footer_fst_center h1 span:hover {
+    transform: translateY(-10px);
+    /* 텍스트가 위로 올라가는 효과 */
+    color: #94290e;
+    /* 원하는 색상으로 변경 */
+}
+
+
+/* .footer_fst_center{width: 1400px;
+height: 1031px;
+margin: 0 auto;
+background-image: url(../image/footer_background.png);
+background-repeat: no-repeat;} */
+#footer_snd {
+    height: 522px;
+    background-color: #000;
+}
+
+.footer_snd_center {
+    width: 1400px;
+    height: 522px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.f_address,
+.f_business,
+.f_mgnt,
+.f_tel {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.f_address,
+.f_business,
+.f_mgnt {
+    margin-bottom: 15px;
+}
+
+.f_tel {
+    margin-bottom: 43px;
+}
+
+.personal,
+.copyright {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.personal {
+    margin-bottom: 13px;
+}
+
+.f_logo {
+    margin-top: 143px;
+    margin-bottom: 31px;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    position: absolute;
+    top: 58px;
+    right: 13px;
+    color: #ddd;
+}
+
+.icon2 {
+    right: 76px;
+}
+
+.icon3 {
+    right: 139px;
+}
+
+.icon4 {
+    right: 202px;
+}
+.icon1:hover{transform: 1.1em;}
